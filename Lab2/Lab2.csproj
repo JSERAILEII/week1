@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Lab2.ExtraPrac</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\week1\Utils.cs" Link="Utils.cs" />
+  </ItemGroup>
+
+</Project>
