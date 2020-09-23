@@ -91,7 +91,7 @@ namespace week1
             
             longest = animals.OrderByDescending(s => s.Length).First();
             var sorted = animals.OrderByDescending(s => s.Length);
-
+            sorted.ToList().ForEach(a => Console.WriteLine(a));
         }
     }
 }
